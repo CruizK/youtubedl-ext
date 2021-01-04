@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "YTDownloader",
+  "version": "1.0",
+
+  "icons": {
+    "48": "logo.png"
+  },
+
+  "permissions": [
+    "http://localhost/*"
+  ],
+
+  "description": "Adds ability to download videos from youtube via local server",
+
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": ["*://www.youtube.com/watch?*"],
+      "css": ["content.css"],
+      "js": ["content-script.js"]
+    }
+  ]
+}

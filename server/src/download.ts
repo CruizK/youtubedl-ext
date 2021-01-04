@@ -32,6 +32,7 @@ router.post('/', async (req, res, next) => {
   })
 
   stream.on('end', () => {
+    console.log(`Finished Downloading: ${name}`);
     res.write("100%");
     res.end()
   })

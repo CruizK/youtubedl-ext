@@ -1,0 +1,10 @@
+.ytdl-button {
+  background-color: transparent;
+  border: 2px solid #333;
+  cursor: pointer;
+  color: #eee;
+  font-size: 13px !important;
+  align-self: center;
+  vertical-align: middle;
+  border-radius: 1px;
+}
