@@ -13,8 +13,6 @@ It uses a local hosted server on port 3050 to use ytdl and ffmpeg to download yo
 The button should be next to the subscribe button like so
 ![Button Location](/imgs/button.png)
 
-You can also configure the location where the
-
 # How to use
 * Have node, npm or yarn. for my case I use yarn
 * Run `yarn` in server/
