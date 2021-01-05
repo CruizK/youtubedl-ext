@@ -11,13 +11,12 @@ function Spawn() {
   
   let element = document.createElement('paper-button');
   element.className = "style-scope ytdl-button"
-  element.innerHTML = "Download Video"
+  element.textContent = "Download Video"
   
   element.addEventListener('click', function() {
     var xhr = new XMLHttpRequest();
-    console.log("WHY NO WORK");
 
-    element.innerHTML = "Downloading..."
+    element.textContent = "Downloading..."
 
     xhr.open('POST', 'http://localhost:3050/download', true);
     xhr.setRequestHeader("Content-Type", "application/json");
@@ -25,17 +24,17 @@ function Spawn() {
 
     xhr.onerror = function (err) {
       console.error(err);
-      element.innerHTML = "Download Failed"
+      element.textContent = "Download Failed"
     }
 
     xhr.onprogress = function(evt) {
-      element.innerHTML = "Downloaded: " + xhr.responseText.substr(-6);
+      element.textContent = "Downloaded: " + xhr.responseText.substr(-6);
     }
 
     xhr.onload = function(evt) {
-      element.innerHTML = "Download Finished"
+      element.textContent = "Download Finished"
       setTimeout(function () {
-        element.innerHTML = "Download Video"
+        element.textContent = "Download Video"
       }, 10000)
     }
   });
