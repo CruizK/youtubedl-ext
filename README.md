@@ -1,5 +1,5 @@
 # youtubedl-ext
-Extension to download youtube videos from a single click using a locally running server
+Extension to download youtube videos as MP3 files from a single click using a locally running server
 Firefox Extension Link: [HERE](https://addons.mozilla.org/firefox/downloads/file/3703510/ytdownloader-1.0-fx.xpi)
 
 # Requirements
