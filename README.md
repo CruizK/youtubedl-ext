@@ -2,11 +2,18 @@
 Extension to download youtube videos from a single click using a locally running server
 Firefox Extension Link: [HERE](https://addons.mozilla.org/firefox/downloads/file/3703510/ytdownloader-1.0-fx.xpi)
 
+# Requirements
+* Node & npm/yarn
+* Have ffmpeg in your $PATH
+* Specify a music file location in server/config.json
+
 
 # Details
 It uses a local hosted server on port 3050 to use ytdl and ffmpeg to download youtube videos from an injected button via the extension
 The button should be next to the subscribe button like so
 ![Button Location](/imgs/button.png)
+
+You can also configure the location where the
 
 # How to use
 * Have node, npm or yarn. for my case I use yarn
