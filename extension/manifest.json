@@ -20,5 +20,10 @@
       "css": ["content.css"],
       "js": ["content-script.js"]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "ytDownloader@cruizk.com"
+    }
+  }
 }

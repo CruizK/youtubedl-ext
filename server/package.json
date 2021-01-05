@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon",
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "start": "node dist/server.js"
   },
   "devDependencies": {
     "@types/body-parser": "^1.19.0",

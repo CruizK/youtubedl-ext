@@ -1,7 +1,6 @@
 import express from 'express'
 import * as config from './config.json'
 import ytdl from 'ytdl-core'
-import fs from 'fs'
 import path from 'path'
 import ffmpeg from 'fluent-ffmpeg'
 import sanitize from 'sanitize-filename'
