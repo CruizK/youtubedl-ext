@@ -25,3 +25,4 @@ The button should be next to the subscribe button like so
 - [ ] Allow configuring of which url the button requests to
 - [ ] Better logs serverside in case something goes wrong
 - [ ] Better button UI
+- [ ] Currently doesn't load if you start on a non watch url
